@@ -65,6 +65,20 @@ hr {
   margin: 1rem 0;
 }
 
+button {
+  width: 100%;
+  background-color: #090;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
 a:hover,
 button:hover {
   cursor: pointer;
@@ -96,4 +110,39 @@ button:hover {
 #about img {
   max-width: 700px;
   padding: 2rem 2rem 2rem 0;
+}
+
+#products li {
+  width: 290px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  * {
+    overflow-y: hidden;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  h3 {
+    max-height: 4.5rem;
+    text-align: center;
+  }
+
+  p {
+    max-height: 8.5rem;
+    color: #333;
+    font-size: small;
+  }
 }

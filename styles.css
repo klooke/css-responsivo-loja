@@ -89,7 +89,7 @@ button:hover {
 .container-row,
 .container-items {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -104,16 +104,18 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 #about img {
-  max-width: 700px;
+  width: 450px;
+  height: 450px;
   padding: 2rem 2rem 2rem 0;
+  object-fit: cover;
 }
 
 #products li {
-  width: 290px;
+  width: 230px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -132,17 +134,21 @@ button:hover {
   }
 
   img {
-    height: 200px;
+    width: 200px;
   }
 
   h3 {
-    max-height: 4.5rem;
     text-align: center;
+    margin: 0.5rem;
   }
 
   p {
     max-height: 8.5rem;
     color: #333;
     font-size: small;
+  }
+
+  button {
+    margin-bottom: 0;
   }
 }

@@ -3,64 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nome da Loja</title>
+    <title>Gameshouse</title>
 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Nome da Loja</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#products">Produtos</a></li>
-        </ul>
-      </nav>
+      <div class="container-row">
+        <h1>Gameshouse</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">Sobre a loja</a></li>
+            <li><a href="#products">Produtos</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section id="about">
-        <img src="#" alt="Imagem da loja" />
+    <main class="container">
+      <section class="container-row" id="about">
+        <img src="imagens\about-shop.png" alt="Imagem da loja" />
         <div>
-          <h2>Sobre</h2>
+          <h2>Sobre a loja</h2>
           <hr />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
             molestiae dignissimos ratione nisi maxime rerum, vel natus tempore
             culpa animi, enim recusandae sunt porro? Asperiores consectetur
-            corrupti impedit debitis dolorum.
+            corrupti impedit debitis dolorum. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Similique, molestiae dignissimos
+            ratione nisi maxime rerum, vel natus tempore culpa animi, enim
+            recusandae sunt porro? Asperiores consectetur corrupti impedit
+            debitis dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Similique, molestiae dignissimos ratione nisi maxime rerum,
+            vel natus tempore culpa animi, enim recusandae sunt porro?
+            Asperiores consectetur corrupti impedit debitis dolorum.
           </p>
         </div>
       </section>
       <section id="products">
         <h2>Produtos</h2>
         <hr />
-        <ul>
+        <ul class="container-items">
           <li>
-            <img src="#" alt="Imagem do tênis 1" />
-            <h3>Produto 1</h3>
-            <p>Descrição do produto</p>
+            <img
+              src="imagens\PlayStation 5 Digital Slim 1TB.png"
+              alt="Imagem do console ps5 slim"
+            />
+            <h3>PlayStation 5 Digital</h3>
+            <p>
+              Console Sony PlayStation 5 Digital Slim 1TB – Branco + Jogos
+              Returnal e Ratchet & Clank + Controle Sem Fio DualSense Branco
+            </p>
             <button>Adicionar ao carrinho</button>
           </li>
           <li>
-            <img src="#" alt="Imagem do tênis 2" />
-            <h3>Produto 2</h3>
-            <p>Descrição do produto</p>
+            <img
+              src="imagens\Xbox Series X Galaxy Black 2tb.png"
+              alt="Imagem do console Xbox Series X"
+            />
+            <h3>Xbox Series X</h3>
+            <p>Xbox Series X Galaxy Black 2tb</p>
             <button>Adicionar ao carrinho</button>
           </li>
           <li>
-            <img src="#" alt="Imagem do tênis 3" />
-            <h3>Produto 3</h3>
-            <p>Descrição do produto</p>
+            <img
+              src="imagens\Nintendo Switch 32GB.png"
+              alt="Imagem do console Nintendo Switch"
+            />
+            <h3>Nintendo Switch</h3>
+            <p>Console Nintendo Switch 32GB Mario Kart 8 Deluxe</p>
             <button>Adicionar ao carrinho</button>
           </li>
           <li>
-            <img src="#" alt="Imagem do tênis 4" />
-            <h3>Produto 4</h3>
-            <p>Descrição do produto</p>
+            <img
+              src="imagens\oculos_vr.png"
+              alt="Imagem do Oculos VR Quest 2"
+            />
+            <h3>Oculus Quest 2</h3>
+            <p>Oculus Quest 2 128gb Vr Branco Original</p>
             <button>Adicionar ao carrinho</button>
           </li>
         </ul>
       </section>
     </main>
+    <footer>
+      <p>&copy; Gameshouse - Todos os direitos reservados, 2025</p>
+    </footer>
   </body>
 </html>

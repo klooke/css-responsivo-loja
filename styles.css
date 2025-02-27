@@ -152,3 +152,75 @@ button:hover {
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  header {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 5.3rem 1rem 1rem 1rem;
+  }
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+      padding: 2rem 0 0 0;
+    }
+  }
+
+  #products li {
+    width: 45%;
+    height: 500px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+
+    a {
+      font-size: small;
+    }
+  }
+
+  #about img {
+    width: 100%;
+    height: 30vh;
+    padding: 2rem 0 0 0;
+  }
+
+  #products li {
+    width: 95%;
+
+    img {
+      max-width: 400px;
+      margin: auto;
+    }
+  }
+}
